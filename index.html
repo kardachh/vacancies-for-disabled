@@ -162,8 +162,224 @@ Trudvsem.ru, HH.ru, Superjob, Зарплата.ру, ГородРабот.ру. 
 Соотнесение профессии и направления подготовки осуществлялось на основе экспертного мнения.
 Ряд профессий (специалист службы поддержки, тьютор, эксперт и др.), не позволяют определить конкретное направление подготовки и обозначены в базе данных строчкой «без предъявления требований к направлению подготовки высшего образования».    
 Профессиональный стандарт также является одним из параметров базы данных и дает пользователям возможность познакомиться с трудовыми функциями, необходимыми для работы по выбранной профессии.</pre>
-            <div class="mt-5 cursor-pointer bg-[#3F77A7] rounded-[30px] justify-center items-center gap-2.5 inline-flex px-5 py-2">
+            <div
+                class="mt-5 cursor-pointer bg-[#3F77A7] rounded-3xl justify-center items-center gap-2.5 inline-flex px-5 py-2">
                 <div class="text-white text">Перейти к поиску</div>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- block-search -->
+    <div>
+        <!-- top -->
+        <div class="bg-white px-10 py-4 flex">
+            <div>
+                <!-- icon + title -->
+                <div class="flex items-center">
+                    <!-- icon -->
+                    <div class="">
+                        <img class="" src="./img/logo.svg" />
+                    </div>
+                    <!-- title -->
+                    <div class="text-md font-semibold">
+                        БАНК ДАННЫХ ВАКАНСИЙ <br />
+                        ДЛЯ СТУДЕНТОВ И ВЫПУСКНИКОВ <br />
+                        С ИНВАЛИДНОСТЬЮ
+                    </div>
+                </div>
+                <!-- text -->
+                <div class="mt-5 text-sm">
+                    <pre class="whitespace-pre-line">
+Введите в поисковой строке <span class="text-blue-400">название профессии</span> или <span class="text-blue-400">направление подготовки высшего образования</span>,на котором вы обучаетесь, укажите <span class="text-blue-400">фильтры</span> (например, регион, график работы), определите предпочтительную верхнюю и нижнюю <span class="text-blue-400">планку зарплатных ожиданий</span>
+
+Чем точнее будут подобраны фильтры, тем больше шансов, что найденные вакансии будут
+строго соответствовать вашим критериям
+                    </pre>
+                </div>
+            </div>
+            <div class="w-full bg-contain bg-no-repeat bg-bottom" style="background-image: url(./img/block-search.png)">
+            </div>
+        </div>
+        <!-- bottom -->
+        <div class="bg-slate-200 px-10 py-10">
+            <form action="">
+                <div class="bg-white rounded-3xl grid grid-cols-12 gap-2 py-2 px-2 text-[8px]">
+                    <div class="col-span-3 h-full">
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2 text-gray-600" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                            <input type="text" name="name"
+                                class="w-full py-2 border-b-2 border-gray-400 outline-none focus:border-blue-400 "
+                                placeholder="ВВЕДИТЕ НАЗВАНИЕ ПРОФЕССИИ">
+                        </div>
+                    </div>
+                    <!--  -->
+                    <label class="col-span-1 flex flex-col items-center justify-between">
+                        <span class="text-gray-700 h-1/4">СУБЪЕКТ РФ</span>
+                        <select class="form-select block h-2/4 w-full px-0">
+                            <option>ЛЮБОЙ</option>
+                            <option>РЕСПУБЛИКА БАШКОРТОСТАН</option>
+                            <option>УДМУРТСКАЯ РЕСПУБЛИКА</option>
+                            <option>РЕСПУБЛИКА МАРИЙ ЭЛ</option>
+                            <option>РЕСПУБЛИКА ТАТАРСТАН</option>
+                            <option>ЧУВАШСКАЯ РЕСПУБЛИКА</option>
+                            <option>КИРОВСКАЯ ОБЛАСТЬ</option>
+                            <option>ОРЕНБУРГСКАЯ ОБЛАСТЬ</option>
+                        </select>
+                    </label>
+                    <!--  -->
+                    <label class="col-span-1 flex flex-col items-center justify-between">
+                        <span class="text-gray-700 h-1/4">ЗАНЯТОСТЬ</span>
+                        <select class="form-select block h-2/4 w-full px-0">
+                            <option>ЛЮБАЯ</option>
+                            <option>ПОЛНАЯ</option>
+                            <option>ЧАСТИЧНАЯ</option>
+                        </select>
+                    </label>
+                    <!--  -->
+                    <label class="col-span-2 flex flex-col items-center justify-between">
+                        <span class="text-gray-700 h-1/4">НАПРАВЛЕНИЕ ПОДГОТОВКИ</span>
+                        <select class="form-select block h-2/4 w-full px-0">
+                            <option>БЕЗ ПРЕДЪЯВЛЕНИЯ ТРЕБОВАНИЯ К НАПРАВЛЕНИЮ ПОДГОТОВКИ ВЫСШЕГО ОБРАЗОВАНИЯ</option>
+                            <option>ПЕДАГОГИЧЕСКОЕ ОБРАЗОВАНИЕ (С ДВУМЯ ПРОФИЛЯМИ ПОДГОТОВКИ) (44.03.05)</option>
+                            <option>ЛЕЧЕБНОЕ ДЕЛО (31.05.01)</option>
+                            <option>АГРОНОМИЯ (35.03.04)</option>
+                            <option>ЭКОНОМИКА (38.03.01)</option>
+                            <option>СТРОИТЕЛЬСТВО (08.03.01)</option>
+                            <option>ИНФОРМАЦИОННЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ (09.03.02)</option>
+                            <option>ТЕХНОСФЕРНАЯ БЕЗОПАСНОСТЬ (20.03.01)</option>
+                            <option>УПРАВЛЕНИЕ КАЧЕСТВОМ (27.03.02)</option>
+                            <option>Социальная работа (39.03.02)</option>
+                        </select>
+                    </label>
+                    <!--  -->
+                    <label class="col-span-2 flex flex-col items-center justify-between">
+                        <span class="text-gray-700 h-1/4">ПРОФСТАНДАРТ</span>
+                        <select class="form-select block h-2/4 w-full px-0">
+                            <option>06.001 — ПРОГРАММИСТ</option>
+                            <option>08.035 — МАРКЕТОЛОГ</option>
+                            <option>08.002 — БУХГАЛТЕР</option>
+                            <option>40.030 — РЕГУЛИРОВЩИК РАДИОЭЛЕКТРОННОЙ АППАРАТУРЫ И ПРИБОРОВ</option>
+                            <option>08.037 — БИЗНЕС-АНАЛИТИК</option>
+                            <option>08.015 — СПЕЦИАЛИСТ ПО КОРПОРАТИВНОМУ КРЕДИТОВАНИЮ</option>
+                            <option>01.001 — ПЕДАГОГ</option>
+                            <option>08.044 — КОНСУЛЬТАНТ ПО НАЛОГАМ И СБОРАМ</option>
+                            <option>02.009 — ВРАЧ-ЛЕЧЕБНИК (ВРАЧ-ТЕРАПЕВТ УЧАСТКОВЫЙ)</option>
+                        </select>
+                    </label>
+                    <!--  -->
+                    <div class="flex items-center justify-center text-center">
+                        МИНИМАЛЬНАЯ ЗАРАБОТНАЯ ПЛАТА
+                    </div>
+                    <!--  -->
+                    <div class="flex items-center justify-center text-center">
+                        МАКСИМАЛЬНАЯ ЗАРАБОТНАЯ ПЛАТА
+                    </div>
+                </div>
+            </form>
+            <br>
+            <!-- examples -->
+            <div class="space-y-2">
+                <!-- example 1 -->
+                <div class="bg-white rounded-3xl grid grid-cols-12 gap-2 py-2 px-2 text-[8px]">
+                    <div class="col-span-3 h-full flex items-center">
+                        <div class="flex items-center gap-3">
+                            <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                            <svg width="20px" height="20px" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg"
+                                xml:space="preserve" fill="#D9E4ED">
+                                <path
+                                    d="M60.732 29.7C41.107 29.7 22 39.7 22 67.41c0 27.29 45.274 67.29 74 94.89 28.744-27.6 74-67.6 74-94.89 0-27.71-19.092-37.71-38.695-37.71C116 29.7 104.325 41.575 96 54.066 87.638 41.516 76 29.7 60.732 29.7z"
+                                    style="clip-rule:evenodd;display:inline;fill:none;stroke:#000000;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1" />
+                            </svg>
+                            <div>
+                                ВРАЧ-ТЕРАПЕВТ УЧАСТКОВЫЙ
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="flex items-center">
+                        КИРОВСКАЯ ОБЛАСТЬ
+                    </div>
+                    <!--  -->
+                    <div class="flex items-center">
+                        ПОЛНАЯ
+                    </div>
+                    <!--  -->
+                    <div class="col-span-2 flex items-center">
+                        ЛЕЧЕБНОЕ ДЕЛО (31.05.01)
+                    </div>
+                    <!--  -->
+                    <div class="col-span-2 flex items-center">
+                        ВРАЧ ФУНКЦИОНАЛЬНОЙ ДИАГНОСТИКИ
+                    </div>
+                    <!--  -->
+                    <div class="flex items-center justify-center">
+                        25 000
+                    </div>
+                    <!--  -->
+                    <div class="flex items-center justify-center">
+                        28 000
+                    </div>
+                    <a href="#" class="text-blue-400 flex items-center justify-center">
+                        ПОДРОБНЕЕ
+                    </a>
+                </div>
+                <!-- example 2 -->
+                <div class="bg-white rounded-3xl grid grid-cols-12 gap-2 py-2 px-2 text-[8px]">
+                    <div class="col-span-3 h-full flex items-center">
+                        <div class="flex items-center gap-3">
+                            <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                            <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.39 20.87a.696.696 0 0 1-.78 0C9.764 19.637 2 14.15 2 8.973c0-6.68 7.85-7.75 10-3.25 2.15-4.5 10-3.43 10 3.25 0 5.178-7.764 10.664-9.61 11.895z"
+                                    fill="#000000" />
+                            </svg>
+                            <div>
+                                ВРАЧ-ТЕРАПЕВТ УЧАСТКОВЫЙ
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="flex items-center">
+                        КИРОВСКАЯ ОБЛАСТЬ
+                    </div>
+                    <!--  -->
+                    <div class="flex items-center">
+                        ПОЛНАЯ
+                    </div>
+                    <!--  -->
+                    <div class="col-span-2 flex items-center">
+                        ЛЕЧЕБНОЕ ДЕЛО (31.05.01)
+                    </div>
+                    <!--  -->
+                    <div class="col-span-2 flex items-center">
+                        ВРАЧ ФУНКЦИОНАЛЬНОЙ ДИАГНОСТИКИ
+                    </div>
+                    <!--  -->
+                    <div class="flex items-center justify-center">
+                        25 000
+                    </div>
+                    <!--  -->
+                    <div class="flex items-center justify-center">
+                        28 000
+                    </div>
+                    <a href="#" class="text-blue-400 flex items-center justify-center">
+                        <div>
+                            ПОДРОБНЕЕ
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
